@@ -229,10 +229,12 @@
 .home-section .home-content .text{
   color: #11101d;
   font-size: 35px;
+  margin-top: 10px;
 }
 .home-section .home-content .bx-menu{
   margin: 0 15px;
   cursor: pointer;
+  margin-top: 10px;
 }
 .home-section .home-content .text{
   font-size: 26px;
