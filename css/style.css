@@ -116,9 +116,9 @@ nav .sidebar-button i{
 .home-section nav .search-box{
   position: relative;
   height: 50px;
-  max-width: 550px;
+  max-width: 850px;
   width: 100%;
-  margin: 0 20px;
+  margin: 0 60px;
 }
 nav .search-box input{
   height: 100%;
@@ -179,7 +179,7 @@ nav .profile-details i{
 .home-content .overview-boxes{
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content:space-around;
   flex-wrap: wrap;
   padding: 0 20px;
   margin-bottom: 26px;
@@ -188,7 +188,7 @@ nav .profile-details i{
   display: flex;
   align-items: center;
   justify-content: center;
-  width: calc(100% / 4 - 15px);
+  width: calc(100% / 2 - 15px);
   background: #fff;
   padding: 15px 14px;
   border-radius: 12px;
@@ -261,7 +261,7 @@ nav .profile-details i{
 
 /* left box */
 .home-content .sales-boxes .recent-sales{
-  width: 65%;
+  width: 100%;
   background: #fff;
   padding: 20px 30px;
   margin: 0 20px;
