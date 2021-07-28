@@ -90,8 +90,9 @@
                                 </a>
                             </li>
 
-                         
-                           
+                          
+
+                        
                         </ul>
                            
 
@@ -177,156 +178,64 @@
                     </div>
                     <!-- end Topbar -->
 <!---------------------------------------------------------------------------------------->
-                <!-- ínicio do contato--> 
- <!-- start page title -->
- <div class="container-fluid">  
-    <div class="row">
-     <div class="col-12">
-         <div class="page-title-box">
-             <div class="page-title-right">
-                 <ol class="breadcrumb m-0">
-                     <li class="breadcrumb-item"><a href="#">Home</a></li>
-                     <li class="breadcrumb-item active">Contato</li>
-                 </ol>
-             </div>
-             <h4 class="page-title">Contatos</h4>
-         </div>
-     </div>
- </div>
+                <!-- ínicio formulário-->
+                <div class="row">
+                    <div class="col-12">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="header-title">Cadastro de usuário</h4>
+                                <p class="text-muted font-14">
+                                   Favor preencha todos os campos solicitados
+                                </p>
+                                
+                                <div class="row">
+                                    <div class="col-lg-6">
+                                        <div class="card">
+                                            <div class="card-body">
+                                           
+                                                <form>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Nome</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="nome" placeholder="">
+                                                       
+                                                    </div>
 
-   <!-- end page title --> 
-   <div class="row">
-    <div class="col-12">
-        <div class="card">
-            <div class="card-body">
-                <button type="button" class="btn btn-primary mb-3"  data-toggle="modal" data-target="#addcontactmodal"> <i class="mdi mdi-account-plus mr-1"></i> Novo contato</button>
-                <button type="button" class="btn btn-light float-right d-none d-sm-block ml-2"> <i class="mdi mdi-format-list-bulleted"></i></button>
-                <button type="button" class="btn btn-light float-right"> <i class="mdi mdi-filter-variant mr-1"></i> Filtrar</button>
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Endereço de e-mail</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="">
+                                                        
+                                                    </div>
 
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Telefone</label>
+                                                        <input type="phone" class="form-control" id="exampleInputEmail1" aria-describedby="telefone" placeholder="(00) 00000-0000">
+                                                        
+                                                    </div>
 
-                <table id="basic-datatable" class="table table-hover dt-responsive nowrap table-centered">
-                    <thead>
-                        <tr>
-                            <th>Usuário ID</th>
-                            <th>Nome/e-mail</th>
-                            <th>telefone</th>
-                            <th>secretaria</th>
-                            <th>Data de cadastro</th>
-                            <th>Ação</th>
-                        </tr>
-                    </thead>
-                
-                
-                    <tbody>
-                        <tr>
-                            <tr>
-                                <td><b>#001</b></td>
-                                <td>
-                                    <img src="assets/images/users/avatar-6.jpg" alt="contact-img" height="36" title="contact-img" class="rounded-circle float-left mr-2" />
-                                    <p class="mb-0 font-weight-bold"><a href="javascript: void(0);">João da SEMED</a></p>
-                                    <span class="font-13 d-none d-sm-block">_______@______.com</span>
-                                </td>
-    
-                                <td>
-                                    00 00000-0000
-                                </td>
-    
-                                <td>
-                                    Codajás
-                                </td>
-    
-                                <td>
-                                    27/07/2021
-                                </td>
-    
-                                <td>
-                                    <div class="btn-group dropdown">
-                                        <a href="javascript: void(0);" class="dropdown-toggle arrow-none btn btn-light btn-sm" data-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-dots-horizontal"></i></a>
-                                        <div class="dropdown-menu dropdown-menu-right">
-                                            <a class="dropdown-item" href="#"><i class="mdi mdi-pencil mr-1 text-muted"></i>Edit Contact</a>
-                                            <a class="dropdown-item" href="#"><i class="mdi mdi-delete mr-1 text-muted"></i>Remove</a>
-                                            <a class="dropdown-item" href="#"><i class="mdi mdi-email mr-1 text-muted"></i>Send Email</a>
-                                        </div>
-                                    </div>
-                                </td>
-                            </tr>
-                            
+                                                    <div class="form-group">
+                                                        <label for="exampleInputEmail1">Escolha um nome de usuário</label>
+                                                        <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="login" placeholder="Ex.: chicosemed">
+                                                        
+                                                    </div>
 
-                        <tr>
-                            <td><b>#002</b></td>
-                            <td>
-                                <img src="assets/images/users/avatar-6.jpg" alt="contact-img" height="36" title="contact-img" class="rounded-circle float-left mr-2" />
-                                <p class="mb-0 font-weight-bold"><a href="javascript: void(0);">João da SEMED</a></p>
-                                <span class="font-13 d-none d-sm-block">_______@______.com</span>
-                            </td>
-
-                            <td>
-                                00 00000-0000
-                            </td>
-
-                            <td>
-                                Codajás
-                            </td>
-
-                            <td>
-                                27/07/2021
-                            </td>
-
-                            <td>
-                                <div class="btn-group dropdown">
-                                    <a href="javascript: void(0);" class="dropdown-toggle arrow-none btn btn-light btn-sm" data-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-dots-horizontal"></i></a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="#"><i class="mdi mdi-pencil mr-1 text-muted"></i>Edit Contact</a>
-                                        <a class="dropdown-item" href="#"><i class="mdi mdi-delete mr-1 text-muted"></i>Remove</a>
-                                        <a class="dropdown-item" href="#"><i class="mdi mdi-email mr-1 text-muted"></i>Send Email</a>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        
-
-                        <tr>
-                            <td><b>#003</b></td>
-                            <td>
-                                <img src="assets/images/users/avatar-6.jpg" alt="contact-img" height="36" title="contact-img" class="rounded-circle float-left mr-2" />
-                                <p class="mb-0 font-weight-bold"><a href="javascript: void(0);">João da SEMED</a></p>
-                                <span class="font-13 d-none d-sm-block">_______@______.com</span>
-                            </td>
-
-                            <td>
-                                00 00000-0000
-                            </td>
-
-                            <td>
-                                Codajás
-                            </td>
-
-                            <td>
-                                27/07/2021
-                            </td>
-
-                            <td>
-                                <div class="btn-group dropdown">
-                                    <a href="javascript: void(0);" class="dropdown-toggle arrow-none btn btn-light btn-sm" data-toggle="dropdown" aria-expanded="false"><i class="mdi mdi-dots-horizontal"></i></a>
-                                    <div class="dropdown-menu dropdown-menu-right">
-                                        <a class="dropdown-item" href="#"><i class="mdi mdi-pencil mr-1 text-muted"></i>Edit Contact</a>
-                                        <a class="dropdown-item" href="#"><i class="mdi mdi-delete mr-1 text-muted"></i>Remove</a>
-                                        <a class="dropdown-item" href="#"><i class="mdi mdi-email mr-1 text-muted"></i>Send Email</a>
-                                    </div>
-                                </div>
-                            </td>
-                        </tr>
-                        
-                    </tbody>
-                </table>
-
-            </div> <!-- end card-body-->
-        </div> <!-- end card -->
-    </div> <!-- end col -->
-</div>
-<!-- end row -->
-
-                <!-- fim do contato-->  
+                                                    <div class="form-group">
+                                                        <label for="exampleInputPassword1">Cadastre uma senha</label>
+                                                        <input type="password" class="form-control" id="exampleInputPassword1" placeholder="********">
+                                                    </div>
+                                                   
+                                                    <button type="submit" class="btn btn-primary">Cadastrar</button>
+                                                </form>
+        
+                                            </div> 
+                                        </div> 
+                                    </div>                               
+                                </form>
+                                
+                            </div>
+                        </div>
+                    </div>                
+                </div>                
+                <!-- fim do formulário-->  
 <!------------------------------------------------------------->
                 <!-- Footer Start -->
                 <footer class="footer">
