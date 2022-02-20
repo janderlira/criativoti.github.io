@@ -450,9 +450,9 @@ html.nav-transition nav#page-nav { opacity:.3; pointer-events:none; }
 nav#page-nav > button {
 	display:block; position:fixed;
 	left:0;
-	top:50%;
-	width:68px;
-	height:68px;
+	top: 88%;
+	width:45px;
+	height:45px;
 	margin:-34px 0 0 0; /*.5 height*/
 	text-align:center;
 	outline:0;
