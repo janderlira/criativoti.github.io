@@ -439,7 +439,7 @@ ul.thumbs > li img { box-shadow:0 0 4px rgba(0, 0, 0, 0.5); }
 
 /*CSS Generated from InDesign Styles*/
 
-body, #container-wrap { background:#ededed; }
+body, #container-wrap { background:#000000; }
 :-webkit-full-screen { background:#ededed; }
 #loadIndicator span:after { padding-left:1ex; content:'loading content...'; }
 .page-scale-wrap { width:595px; height:842px; background: #fff !important; }
@@ -479,14 +479,7 @@ html[data-dir="rtl"] nav#page-nav > #backBtn, html:not([data-dir="rtl"]) nav#pag
 	.paper-vertical, .paper-horizontal { padding:0; }
 }
 #share-wrap {
-    left:0;
-    position:fixed;
-    top: 25%;
-    background-color: rgba(0,0,0,.65);
-    box-shadow: 2px 2px 6px 0 rgba(0,0,0,.4);
-    z-index:9999;
-    -webkit-animation:share-fadein 1s ease 2s;
-    animation:share-fadein 1s ease 2s;
+  
 }
 #share-wrap.align-right { right:0; left:auto; }
 #share-wrap.align-bottom {left:auto; right:20px; bottom:0; top:auto; padding-bottom:12px; }
